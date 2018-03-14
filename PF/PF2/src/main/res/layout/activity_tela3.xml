@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="roberth.com.pf2.Tela3Activity">
+
+    <EditText
+        android:id="@+id/ed_t3_nota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso Nota 1"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/ed_t3_nota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso Nota 2"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular media"
+        android:onClick="calculoMedia"/>
+
+    <TextView
+        android:id="@+id/tv_t3_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textAlignment="center"/>
+
+</LinearLayout>
